@@ -1,0 +1,21 @@
+footer{
+  width: 100%;
+  padding: 15px 0;
+  border-top: .5px solid white;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 25px;
+  nav{
+    ul{
+      display: flex;
+      li{
+        margin-left: 25px;
+        a{
+          font-size: .8rem;
+          font-weight: 300;
+        }
+      }
+    }
+  }
+
+}

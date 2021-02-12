@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Lemonada:300,400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Odibee+Sans&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: 'Lemonada', cursive;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+button, input{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+body{
+  background-color: black;
+  padding: 0 3%;
+}
+
+ul{
+  list-style-type: none;
+}
+
+a, a:visited{
+  color: white;
+}
+
+main{
+  min-height: calc(100vh - 210px);
+}

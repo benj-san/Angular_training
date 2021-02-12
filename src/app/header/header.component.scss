@@ -1,0 +1,18 @@
+header{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 0;
+  margin-bottom: 25px;
+  border-bottom: .5px solid white;
+
+  a{
+    font-weight: 700;
+    font-size: 3rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-family: 'Odibee Sans', cursive;
+  }
+
+}

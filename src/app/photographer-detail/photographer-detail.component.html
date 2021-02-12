@@ -1,0 +1,11 @@
+<main>
+  <section>
+    <h1>{{photographers.name}}</h1>
+    <h2>{{photographers.location}}</h2>
+    <ul>
+      <li *ngFor="let picture of photographers.pictures" >
+        <img src="{{picture}}" alt="{{photographers.name}}">
+      </li>
+    </ul>
+  </section>
+</main>

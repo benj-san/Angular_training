@@ -1,0 +1,19 @@
+<main>
+  <h1>Picturing beauty every day</h1>
+  <section>
+    <article *ngFor="let photographer of photographers; index as photographerId">
+      <a [routerLink]="['/photographer', photographerId]">
+        <div class="title_container">
+          <h2>{{photographer.name}} <span>x</span> {{photographer.location}}</h2>
+          <span class="middle_line"></span>
+          <span class="hover_mid_line"></span>
+        </div>
+        <ul class="pic_container">
+          <li *ngFor="let picture of photographer.pictures">
+            <img  src="{{picture}}" alt="{{photographer.name}}">
+          </li>
+        </ul>
+      </a>
+    </article>
+  </section>
+</main>
